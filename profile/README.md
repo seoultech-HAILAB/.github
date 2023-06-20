@@ -1,4 +1,4 @@
-## WElcome to HAILAB GITHUB! 👋
+## Welcome to HAILAB GITHUB! 👋
 
 more information : https://hai.seoultech.ac.kr/
 <!--
