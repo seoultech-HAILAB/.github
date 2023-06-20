@@ -1,5 +1,6 @@
-## Hi there 👋
+## WElcome to HAILAB GITHUB! 👋
 
+more information : https://hai.seoultech.ac.kr/
 <!--
 
 **Here are some ideas to get you started:**
