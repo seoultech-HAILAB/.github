@@ -17,7 +17,7 @@ more information : https://hai.seoultech.ac.kr/
 - 본 `Coding Rule`은 각 프로젝트 사정에 맞게 수정하여 사용할 수 있습니다.
 
 # Coding Rule
-작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`를 제정한다.
+작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`을 제정한다.
 ## Naming
 - Class = `PascalCase`
 - variable, function, method = `camelCase`
