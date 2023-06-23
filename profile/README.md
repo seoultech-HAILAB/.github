@@ -33,11 +33,11 @@ more information : https://hai.seoultech.ac.kr/
 - `develop`
   - `develop branch`는 애플리케이션의 개발을 진행할 때 사용한다.
   - 일반적으로 `develop/담당자식별-목표Version` 형식을 추천한다. ex) develop/LDY-1.2 등
-  - 작업이 완료된 경우, `master branch`로 'PR`을 보내고 정상적으로 'merge'된 경우 제거한다.
+  - 작업이 완료된 경우, `master branch`로 `PR`을 보내고 정상적으로 `merge`된 경우 제거한다.
 - `feature`
   - `feature branch`는 애플리케이션의 기능을 제작할 때 사용한다.
   - 일반적으로 `feature/기능이름` 형식을 추천한다. ex) feature/login 등
-  - 작업이 완료된 경우, `develop branch`로 'PR`을 보내고 정상적으로 'merge'된 경우 제거한다.
+  - 작업이 완료된 경우, `develop branch`로 `PR`을 보내고 정상적으로 `merge`된 경우 제거한다.
 - `release`
   - `release branch`는 애플리케이션을 배포할 때 사용한다.
   - 일반적으로 `release-Version` 형식을 추천한다. ex) release-1.2 등
@@ -45,4 +45,4 @@ more information : https://hai.seoultech.ac.kr/
 - `hotfix`
   - `hotfix branch`는 애플리케이션의 오류를 수정할 때 사용한다.
   - 일반적으로 `hotfix-Version.num` 형식을 추천한다. ex) hotfix-1.2.2 등
-  - 작업이 완료된 경우, `master branch`, `feature branch`로 'PR`을 보낸다.
+  - 작업이 완료된 경우, `master branch`, `feature branch`로 `PR`을 보낸다.
