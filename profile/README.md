@@ -16,7 +16,7 @@ more information : https://hai.seoultech.ac.kr/
 - 다음 `Coding Rule` 하위 내용을 각 프로젝트(Repository) 마다 복사하여 작업해주세요.
 - 본 `Coding Rule`은 각 프로젝트 사정에 맞게 수정하여 사용할 수 있습니다.
 
-# Coding Rule V23.1
+# Coding Rule V23.2
 작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`을 제정한다.
 ## Naming
 - Class = `PascalCase`
@@ -30,10 +30,14 @@ more information : https://hai.seoultech.ac.kr/
   - `master branch`는 `Repository` 생성시 자동으로 생성된다.
   - 일반적으로 완성된 최신 작업물을 `merge`하는 곳으로 사용한다.
   - `feature branch`에서 `PR`을 받아 책임 혹은 담당 개발자가 검토 후 `merge`한다.
+- `develop`
+  - `develop branch`는 애플리케이션의 개발을 진행할 때 사용한다.
+  - 일반적으로 `develop/담당자식별-목표Version` 형식을 추천한다. ex) develop/LDY-1.2 등
+  - 작업이 완료된 경우, `master branch`로 'PR`을 보내고 정상적으로 'merge'된 경우 제거한다.
 - `feature`
   - `feature branch`는 애플리케이션의 기능을 제작할 때 사용한다.
   - 일반적으로 `feature/기능이름` 형식을 추천한다. ex) feature/login 등
-  - 작업이 완료된 경우, `master branch`로 'PR`을 보내고 정상적으로 'merge'된 경우 제거한다.
+  - 작업이 완료된 경우, `develop branch`로 'PR`을 보내고 정상적으로 'merge'된 경우 제거한다.
 - `release`
   - `release branch`는 애플리케이션을 배포할 때 사용한다.
   - 일반적으로 `release-Version` 형식을 추천한다. ex) release-1.2 등
