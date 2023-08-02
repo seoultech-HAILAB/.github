@@ -18,10 +18,10 @@ more information : https://hai.seoultech.ac.kr/
 
 >문의 : [DY-76](https://github.com/DY-76)
 # Coding Rule
-- 제정 23.2
-- 개정 23.4
-- 개정 23.8
-작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`을 제정한다.
+> 제정 23.2
+> 개정 23.4
+> 개정 23.8
+- 작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`을 제정한다.
 ## Naming
 - Class = `PascalCase`
 - variable, function, method = `camelCase`
