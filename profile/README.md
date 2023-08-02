@@ -17,7 +17,10 @@ more information : https://hai.seoultech.ac.kr/
 - 본 `Coding Rule`은 각 프로젝트 사정에 맞게 수정하여 사용할 수 있습니다.
 
 >문의 : [DY-76](https://github.com/DY-76)
-# Coding Rule V23.2
+# Coding Rule
+- 제정 23.2
+- 개정 23.4
+- 개정 23.8
 작업, 유지보수의 편의성 증진과 효율적이고 강건한 애플리케이션 개발을 위해 `Coding Rule`을 제정한다.
 ## Naming
 - Class = `PascalCase`
@@ -41,9 +44,9 @@ more information : https://hai.seoultech.ac.kr/
   - 작업이 완료된 경우, `develop branch`로 `PR`을 보내고 정상적으로 `merge`된 경우 제거한다.
 - `release`
   - `release branch`는 애플리케이션을 배포할 때 사용한다.
-  - 일반적으로 `release-Version` 형식을 추천한다. ex) release-1.2 등
+  - 일반적으로 `release/Version` 형식을 추천한다. ex) release/1.2 등
   - 특정 시점의 작업이 완료된 `Master branch`에서 배포하고자 하였을 때 `release branch`를 생성하고 더이상 작업하지 않는다(기록용 branch).
 - `hotfix`
   - `hotfix branch`는 애플리케이션의 오류를 수정할 때 사용한다.
-  - 일반적으로 `hotfix-Version.num` 형식을 추천한다. ex) hotfix-1.2.2 등
+  - 일반적으로 `hotfix/Version.num` 형식을 추천한다. ex) hotfix/1.2.2 등
   - 작업이 완료된 경우, `master branch`, `feature branch`로 `PR`을 보낸다.
